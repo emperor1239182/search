@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: rgba(244, 241, 241, 0.859);
+}
+.container{
+    width: 100%;
+    display: flex;
+    display: block;
+    margin: auto;
+}
+#input{
+    background-color: transparent;
+    border: none;
+    width: 85%;
+    
+}
+
+#input:focus {
+    outline: none; 
+    border: none;
+}
+.search-field{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 14px;
+}
