@@ -6,10 +6,10 @@ body{
     background-color: rgba(244, 241, 241, 0.859);
 }
 .container{
-    width: 100%;
+    width: 80%;
     display: flex;
     display: block;
-    margin: auto;
+    margin: 10px auto;
 }
 #input{
     background-color: transparent;
